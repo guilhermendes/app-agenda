@@ -12,8 +12,12 @@ import { ContatoService } from './contato.service'
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+
+import {MatTabsModule} from '@angular/material/tabs';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule } from '@angular/material/card'
 
 @NgModule({
   declarations: [
@@ -29,7 +33,10 @@ import {MatTableModule} from '@angular/material/table';
     MatInputModule,
     MatTableModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTabsModule,
+    MatIconModule,
+    MatCardModule
   ],
   providers: [
     ContatoService
