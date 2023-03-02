@@ -14,6 +14,7 @@ export class ContatoComponent implements OnInit {
 
   formulario!: FormGroup;
   contatos: Contato[] = [];
+  colunas: string[] = ['id', 'nome', 'email', 'favorito'];
 
 
   constructor(
@@ -40,4 +41,3 @@ export class ContatoComponent implements OnInit {
   }
 
 }
-
